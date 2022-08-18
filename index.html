@@ -13,12 +13,21 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- NAVBAR -->
     <nav>
       <div class="container nav__container">
-        <a href="index.html"><img src="images/logo.png" alt="Nav Logo" /></a>
+        <a href="index.html"
+          ><img src="images/logo.png" alt="Nav Logo" class="nav__logo"
+        /></a>
         <ul class="nav__links">
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -26,14 +35,62 @@
           <li><a href="#exhibitions">Exhibitions</a></li>
         </ul>
         <ul class="nav__socials">
-          <li><a href="https://instagram.com" target="_blank"><i class="uil uil-instagram-alt"></i></a></li>
-          <li><a href="https://twitter.com" target="_blank"></a><i class="uil uil-twitter"></i></li>
-          <li><a href="https://youtube.com" target="_blank"><i class="uil uil-youtube"></i></a></li>
+          <li>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="uil uil-instagram-alt"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com" target="_blank"
+              ><i class="uil uil-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://youtube.com" target="_blank"
+              ><i class="uil uil-youtube"></i
+            ></a>
+          </li>
         </ul>
-        <button class="nav__togle-btn" id="nav__toggle-open"><i class="uil uil-bars"></i></button>
-        <button class="nav__togle-btn" id="nav__toggle-close"><i class="uil uil-multiply"></i></button>
+        <button class="nav__toggle-btn" id="nav__toggle-open">
+          <i class="uil uil-bars"></i>
+        </button>
+        <button class="nav__toggle-btn" id="nav__toggle-close">
+          <i class="uil uil-multiply"></i>
+        </button>
       </div>
     </nav>
     <!-- END OF NAVBAR -->
+
+    <!-- ========HEADER SECTION======= -->
+    <header>
+      <div class="container header__container">
+        <div class="left">
+          <div class="header__image-bg"></div>
+          <div class="header__image-lg">
+            <img src="images/header.jpeg" alt="" />
+          </div>
+          <div class="header__image-sm">
+            <img src="images/header.jpeg" alt="" />
+          </div>
+        </div>
+        <div class="right">
+          <div class="header__head">
+            <div class="empty header__empty"></div>
+            <a href="" class="header__tag">#Best Travel Photographer 2022</a>
+          </div>
+          <h1>See The Beauty Of The World Through My Lens</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
+            corporis nemo expedita eos similique quidem culpa harum. Ea optio
+            fugiat harum! Laudantium eligendi, nobis officia amet explicabo
+            reprehenderit illo. Facere.
+          </p>
+          <a href="mailto:vynsintilla@gmail.com" class="header__btn-md">Let's Talk</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- =======HEADER SECTION END======== -->
+    <script src="JS/main.js"></script>
   </body>
 </html>

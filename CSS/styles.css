@@ -294,7 +294,7 @@ header {
 }
 .about__title {
   position: absolute;
-  top: 7rem;
+  top: -10rem;
   z-index: 1;
 }
 .about__btn {
